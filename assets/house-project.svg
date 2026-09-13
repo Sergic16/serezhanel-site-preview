@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" role="img" aria-labelledby="title desc">
+  <title id="title">Нейтральный визуал проекта дома-бани</title><desc id="desc">Абстрактный линейный чертёж небольшого дома</desc>
+  <rect width="800" height="520" fill="#d7d0c3"/>
+  <path d="M0 80h800M0 160h800M0 240h800M0 320h800M0 400h800M80 0v520M160 0v520M240 0v520M320 0v520M400 0v520M480 0v520M560 0v520M640 0v520M720 0v520" stroke="#171410" stroke-opacity=".1" stroke-width="2"/>
+  <path d="M170 382V224l230-132 230 132v158H170Z" fill="none" stroke="#c77755" stroke-width="8"/>
+  <path d="M134 238 400 82l266 156M318 382V270h82v112M500 382V270h62v62h-62" fill="none" stroke="#c77755" stroke-width="8"/>
+  <text x="170" y="456" fill="#171410" font-family="Courier New,monospace" font-size="20" letter-spacing="3">SELF-BUILD / HOUSE-BATH PROJECT</text>
+</svg>
