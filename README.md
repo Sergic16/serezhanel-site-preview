@@ -10,7 +10,9 @@ This repository begins from a read-only recovery of the live static page and inc
 - project browsing is the secondary route;
 - AI section is framed as evidence and practical verification rather than as a failure headline;
 - persistent scroll trace shows the visitor's position through the three worlds;
-- public footer does not contain internal/technical marker text.
+- portfolio now contains three cards and a documented pattern for adding future projects;
+- added a dedicated education/credentials section with a safe placeholder for the user's certificate; no qualification details are invented;
+- added a practical-project card for the site itself and a direct route back to contact;
 
 ## Safety
 
