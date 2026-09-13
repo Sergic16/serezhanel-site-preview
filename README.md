@@ -1,22 +1,29 @@
-# Serezha NeL — personal platform
+# Serezha NeL: personal platform
 
-Private source repository for the `serezhanel.ru` website.
+Source repository for the `serezhanel.ru` redesign.
 
-## Current state
+## Current concept
 
-This repository begins from a read-only recovery of the live static page and includes the first local `scroll-craft` conversion pass:
+The site is rebuilt around one promise: Sergey helps turn a complex AI, website, or digital task into a working result.
 
-- primary hero CTA points to the contact block;
-- project browsing is the secondary route;
-- AI section is framed as evidence and practical verification rather than as a failure headline;
-- persistent scroll trace shows the visitor's position through the three worlds;
-- portfolio now contains three cards and a documented pattern for adding future projects;
-- added a dedicated education/credentials section with a safe placeholder for the user's certificate; no qualification details are invented;
-- added a practical-project card for the site itself and a direct route back to contact;
+The visual concept is **Noise to Signal**:
 
-## Safety
+- layered editorial hero with a scroll-driven signal line;
+- pinned manifesto that explains the practical, non-guru approach;
+- three clear help routes without competing primary CTAs;
+- verifiable portfolio links instead of abstract case studies;
+- transparent four-step working process;
+- education section with a safe placeholder until the real certificate is supplied;
+- music as a human proof of authorship, not a competing service;
+- one primary conversion route: `Обсудить задачу`.
 
-The live domain was not changed by creating this repository. Deployments require a separate review and explicit confirmation.
+## Structure
+
+- `index.html`: semantic page structure and copy;
+- `assets/site.css`: brand, layout, responsive states and reduced-motion fallback;
+- `assets/site.js`: navigation and authored interaction layer;
+- `assets/scrollcraft.css` and `assets/scrollcraft.js`: local scroll-craft runtime;
+- `BRIEF.md`: creative direction and journey specification.
 
 ## Local preview
 
@@ -24,4 +31,21 @@ The live domain was not changed by creating this repository. Deployments require
 python3 -m http.server 4500
 ```
 
-Then open `http://127.0.0.1:4500`.
+Open `http://127.0.0.1:4500`.
+
+## Portfolio extension pattern
+
+Each new project should contain:
+
+1. project type;
+2. title;
+3. verified task and contribution;
+4. honest result;
+5. visual asset;
+6. direct working URL.
+
+Do not invent metrics, clients, qualifications, certificate details, or outcomes.
+
+## Safety and release boundary
+
+The public preview is published separately through GitHub Pages. Updating this branch does not deploy to the production domain. Production deployment requires a backup, a tested rollback path and explicit confirmation.
